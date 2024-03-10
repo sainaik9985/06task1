@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+ #s1{
+  
+  position: relative;
+  animation: myfirst 2s ;
+  animation-fill-mode: forwards;
+  display: inline-block;
+  animation-delay:0s;
+  background-color: blueviolet; width: 50px; 
+  border: 20px solid red;
+  
+
+
+ 
+ 
+ }
+
+
+  #s2{
+  
+  position: relative;
+  animation: myfirst 2s ;
+  animation-fill-mode: forwards;
+ display: inline-block;
+ animation-delay:1s;
+ background-color: blueviolet; width: 50px; 
+ border: 20px solid yellow;
+  
+ }
+
+ #s3{
+  
+  position: relative;
+  animation: myfirst 2s ;
+  animation-fill-mode:forwards;
+ display: inline-block;
+ animation-delay:2s;
+ background-color: blueviolet; width: 50px;
+ border: 20px solid orangered;
+  
+ }
+
+
+@keyframes myfirst {
+  0%   { top: 0px;}
+  
+  
+  100% { top: 200px;}
+}
+
+#s1,#s2,#s3{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div id="s1"><h1>s</h1></div>
+<div id="s2">
+    <h1>a</h1>
+</div>
+<div id="s3"><h1>i</h1></div>
+
+</body>
+</html>
