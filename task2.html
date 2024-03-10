@@ -1,0 +1,52 @@
+,<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #b1:hover ~ img {
+            transform: rotate(90deg);
+            transition-duration: 1s;
+            
+            
+            
+        
+        }
+
+        #b2:hover ~ img{
+            transform: rotate(180deg);
+            transition-duration: 1s;
+        }
+
+        #b3:hover ~ img{
+            transform: rotate(260deg);
+            transition-duration: 1s;
+       
+        }
+        #b4:hover ~ img {
+            transform: rotate(360deg);
+            transition-duration: 1s;
+        }
+       img{
+        margin-bottom: 300px;
+        position: relative;
+        margin-left: 100px;
+        margin-top: 200;
+       }
+
+    </style>
+</head>
+<body>
+
+   <button id="b1">rotate 90degree</button>
+   <button id="b2">rotate 180degree</button>
+   <button id="b3">rotate 260degree</button> 
+   <button id="b4">rotate 360degree</button>
+   <hr>
+
+   <img  src="./sunset.jpg" alt="" height="200">
+
+   
+</body>
+</html>
